@@ -1,14 +1,16 @@
 import React, {Component} from 'react';
+import Profile from './Profile';
+import ResumeContent from './ResumeContent';
 
-class Resume extends Component{
+var Resume = React.createClass({
     render(){
         return(
             <div>
-                Resume
+                <Profile />
+                <ResumeContent />
             </div>
         )
     }
-}
-
+})
 
 export default Resume;

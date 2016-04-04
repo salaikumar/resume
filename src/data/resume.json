@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "name": "Vijay Kumar",
+    "role": "Developer",
+    "picture": "profile.png",
+    "email": "rvkumar2906@gmail.com",
+    "mobile": "+91 9944239288",
+    "location": {
+      "zipcode": "600100",
+      "city": "Chennai",
+      "address": "Pallikaranai",
+      "region": "TamilNadu"
+    },
+    "summary": "Wanna be a Programmer",
+    "social": [
+      {
+        "network": "linkedin",
+        "username": "rvkumar92",
+        "url": "https://in.linkedin.com/in/rvkumar92"
+      },
+      {
+        "network": "github",
+        "username": "rvkumar92",
+        "url": "https://github.com/rvkumar92"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "TCS",
+      "postion": "Systems Engineer",
+      "from": "2013-08-01",
+      "to":"Present",
+      "summary": "",
+      "highligts": []
+    }
+  ],
+  "education": [
+    {
+      "college": "SASTRA University",
+      "course": "B.Tech CSE",
+      "from": "2009",
+      "to": "2013",
+      "cgpa":"7.0"
+    }
+  ],
+  "skills":[
+    {
+      "tools": [
+        "Gulp",
+        "Browserify",
+        "Weback",
+        "Maven",
+        "Npm",
+        "Git"
+      ],
+      "programming": [
+        "Java",
+        "Android",
+        "Reactjs & Flux",
+        "HTML & CSS",
+        "Javascript",
+        "Nodejs"
+      ],
+      "databases": [
+        "MySQL",
+        "Oracle",
+        "NoSQL",
+        "Mongolab",
+        "Firebase"
+      ],
+      "frameworks": [
+        "Expressjs",
+        "Angularjs",
+        "Bootstrap",
+        "ES2015"
+      ],
+      "softwares": [
+        "Eclipse",
+        "Webstorm"
+      ]
+    }
+  ],
+  "languages": [
+    "Tamil",
+    "English"
+  ],
+  "interest": [
+    "Android Application Development",
+    "Web Application Development"
+  ]
+}
