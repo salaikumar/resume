@@ -2,7 +2,7 @@ var resumeContext = {
     "profile": {
         "name": "Vijay Kumar",
         "role": "Developer",
-        "picture": "profile.png",
+        "picture": "src/images/profile.png",
         "email": "rvkumar2906@gmail.com",
         "mobile": "+91 9944239288",
         "location": {
@@ -28,10 +28,15 @@ var resumeContext = {
     "work": [
         {
             "company": "TCS",
-            "postion": "Systems Engineer",
+            "position": "Systems Engineer",
             "from": "2013-08-01",
             "to":"Present",
-            "summary": "",
+            "workSummary": [
+                {
+                    "backend":"Worked as a Java developer",
+                    "frontend":"Worked in a AngularJs project "
+                }
+            ],
             "highligts": []
         }
     ],
