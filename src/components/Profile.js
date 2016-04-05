@@ -9,7 +9,15 @@ var Profile = React.createClass({
                          alt="Profile Picture" className="img-circle profileImage" width="200"/>
                 </div>
                 <div className="name text-center"><h3>{this.props.profileData.name}</h3></div>
-                <div></div>
+                <h4 className="role text-center">{this.props.profileData.role}</h4>
+                <hr/>
+                <ul>
+                    <li><i className="fa fa-lg fa-map-marker"></i>{this.props.profileData.location.address},
+                        {this.props.profileData.location.city},
+                        {this.props.profileData.location.region}</li>
+                    <li><i className="fa fa-envelope"></i>{this.props.profileData.email}</li>
+                    <li><i className="fa fa-mobile"></i>{this.props.profileData.mobile}</li>
+                </ul>
             </div>
         )
     }

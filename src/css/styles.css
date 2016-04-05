@@ -6,3 +6,15 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.role{
+    color: #777b79;
+}
+
+.fa{
+    margin-right: 5px;
+    top:4px;
+}
+
+li{
+    list-style: none;
+}
