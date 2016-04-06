@@ -1,5 +1,5 @@
 body{
-    background: #f0f0f0;
+    background: #777B79;/* change it to #f0f0f0 */
 }
 .profileImage{
     display: block;
@@ -17,4 +17,8 @@ body{
 
 li{
     list-style: none;
+}
+
+.skills-list{
+    font-size: 18px;
 }

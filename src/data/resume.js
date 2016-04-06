@@ -50,41 +50,29 @@ var resumeContext = {
         }
     ],
     "skills":[
-        {
-            "tools": [
-                "Gulp",
-                "Browserify",
-                "Weback",
-                "Maven",
-                "Npm",
-                "Git"
-            ],
-            "programming": [
-                "Java",
-                "Android",
-                "Reactjs & Flux",
-                "HTML & CSS",
-                "Javascript",
-                "Nodejs"
-            ],
-            "databases": [
-                "MySQL",
-                "Oracle",
-                "NoSQL",
-                "Mongolab",
-                "Firebase"
-            ],
-            "frameworks": [
-                "Expressjs",
-                "Angularjs",
-                "Bootstrap",
-                "ES2015"
-            ],
-            "softwares": [
-                "Eclipse",
-                "Webstorm"
-            ]
-        }
+        "Gulp",
+        "Browserify",
+        "Weback",
+        "Maven",
+        "Npm",
+        "Git",
+        "Java",
+        "Android",
+        "Reactjs & Flux",
+        "HTML & CSS",
+        "Javascript",
+        "Nodejs",
+        "MySQL",
+        "Oracle",
+        "NoSQL",
+        "Mongolab",
+        "Firebase",
+        "Expressjs",
+        "Angularjs",
+        "Bootstrap",
+        "ES2015",
+        "Eclipse",
+        "Webstorm"
     ],
     "languages": [
         "Tamil",

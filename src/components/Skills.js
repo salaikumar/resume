@@ -1,11 +1,20 @@
 import React, {Component} from 'react';
 
 var Skills = React.createClass({
+    componentWillMount(){
+
+    },
     render(){
+        console.log(this.props.skillset);
+        var getSkills = this.props.skillset.map(function(skill,index){
+            return <li key={index}><span className="label label-info">{skill}</span></li>
+        });
         return(
-            <div className="container">
-                Skills
-            </div>
+            <section>
+                <h2 className="text-uppercase"><i className="fa fa-code">Skills</i></h2>
+                <hr/>
+                <ul className="skills-list list-inline">{getSkills}</ul>
+            </section>
         )
     }
 });
