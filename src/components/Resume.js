@@ -31,10 +31,25 @@ var Resume = React.createClass({
                             <div className="inner well">
                                 <Profile profileData={profileData}/>
                             </div>
+                            <aside className="github well pull-left">
+                                <h3 className="nav-header"><i className="fa fa-code-fork">Github Projects</i></h3>
+                                <hr/>
+                                <p><a target="_blank" href="https://github.com/rvkumar92/resume">Resume repository</a></p>
+                                <p><a target="_blank" href="https://github.com/rvkumar92/replica/tree/master/google">Replica - Google Homepage</a></p>
+                                <p><a target="_blank" href="https://github.com/rvkumar92/stickynotes">StickpadNotes - flux</a></p>
+                                <p><a target="_blank" href="https://github.com/rvkumar92?tab=repositories" className="pull-right">View more repositories</a></p>
+                            </aside>
                         </aside>
                         <main className="col-md-8">
                             <div className="inner well">
                                 <Work workData={workData} />
+                                <br/>
+                                <h2 className="text-uppercase">Interest</h2>
+                                <hr/>
+                                <ul>
+                                    <li>{interest.web}</li>
+                                    <li className="fa fa-android">{interest.mobile}</li>
+                                </ul>
                                 <br/>
                                 <Skills skillset={skillset} />
                                 <br/>

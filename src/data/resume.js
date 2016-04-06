@@ -78,10 +78,10 @@ var resumeContext = {
         "Tamil",
         "English"
     ],
-    "interest": [
-        "Android Application Development",
-        "Web Application Development"
-    ]
+    "interest": {
+        "mobile":"Android Application Development",
+        "web":"Web Application Development"
+    }
 };
 
 export default resumeContext;
