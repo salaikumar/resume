@@ -28,3 +28,15 @@ li{
 .github{
     width: 100%;
 }
+.reponame{
+    font-weight: bold;
+}
+.tags{
+    margin-right: 1%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}

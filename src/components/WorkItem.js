@@ -6,7 +6,6 @@ var WorkItem = React.createClass({
         return <span>{startDate} - {this.props.workitem.to}</span>
     },
     render(){
-        console.log(this.props.workitem);
         return(
             <div>
                 <h4>{this.props.workitem.position},{this.props.workitem.company}</h4>

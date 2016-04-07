@@ -5,7 +5,6 @@ var Skills = React.createClass({
 
     },
     render(){
-        console.log(this.props.skillset);
         var getSkills = this.props.skillset.map(function(skill,index){
             return <li key={index}><span className="label label-info">{skill}</span></li>
         });

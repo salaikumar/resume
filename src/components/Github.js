@@ -28,20 +28,36 @@ var Github = React.createClass({
         });
     },
     render(){
-        var getuserrepos = this.state.userRepos.map(function(repo,i){
-            return <div className="row">
-                    <div className="col-lg-12">
-                        <a href={repo.url} key={repo.id}>{repo.name}</a>
-                    </div>
-                </div>
-        });
+        var getUserRepos =
+
+                this.state.userRepos.map((repo,i)=>{
+                    if(repo.id == '55643485'){
+                        return <div className="row">
+                            <div className="col-md-6">
+                                <div className="col-md-12 reponame text-primary">
+                                    <a href={repo.url} key={i}>{repo.name}</a>
+                                </div>
+                                <div className="col-md-12 repodescription">
+                                    <p key={i}>Creating resume using reactjs with the help of gulp and node.</p>
+                                </div>
+                                <div className="col-md-12" key={i}>
+                                    <span className=" tags label label-primary text-uppercase">react</span>
+                                    <span className="tags label label-primary text-uppercase">gulp</span>
+                                </div>
+                            </div>
+
+                            <div className="col-md-6">
+
+                            </div>
+                        </div>
+                    }
+                });
+
         return(
             <section>
                 <h2 className="text-uppercase"><i className="fa fa-code-fork">Github Repos</i></h2>
                 <hr/>
-                <ul className="list-group list-inline">
-                    <li>{getuserrepos}</li>
-                </ul>
+                {getUserRepos}
             </section>
         )
     }

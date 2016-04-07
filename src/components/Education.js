@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 
 var Education = React.createClass({
     render(){
-        console.log(this.props.educationData[0]);
         return(
             <section>
                 <h2 className="text-uppercase"><i className="fa fa-graduation-cap">Education</i></h2>
