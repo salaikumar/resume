@@ -18,6 +18,9 @@ var Profile = React.createClass({
                     <li><i className="fa fa-envelope"></i>{this.props.profileData.email}</li>
                     <li><i className="fa fa-mobile"></i>{this.props.profileData.mobile}</li>
                 </ul>
+                <hr/>
+                <a href="https://github.com/rvkumar92"><i className="fa fa-github"></i></a>
+                <a href="https://github.com/rvkumar92"><i className="fa fa-linkedin-square"></i></a>
             </div>
         )
     }
