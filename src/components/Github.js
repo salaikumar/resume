@@ -27,9 +27,7 @@ var Github = React.createClass({
         });
     },
     render(){
-        console.log(this.state.userRepos.map(function(repo,i){
-            return repo.id + repo.name;
-        }));
+        var tags = "pull-right tags label label-primary text-uppercase";
         var firstHalfUserRepos = this.state.userRepos.map((repo,i)=>{
             if(repo.id == '55372911'){
                 return <div>
@@ -41,28 +39,13 @@ var Github = React.createClass({
                         <p key={i}>Creating resume using reactjs with the help of gulp and node.</p>
                     </div>
                     <div className="col-md-12" key={i}>
-                        <span className=" tags label label-primary text-uppercase">react</span>
-                        <span className="tags label label-primary text-uppercase">gulp</span>
+                        <span className={tags}>react</span>
+                        <span className={tags}>gulp</span>
                     </div>
 
                 </div>
             }
-            if(repo.id == '55372911'){
-                return <div>
 
-                    <div className="col-md-12 reponame text-primary">
-                        <a href={repo.html_url} target="_blank" key={i}>{repo.name}-Meghaduta</a>
-                    </div>
-                    <div className="col-md-12 repodescription">
-                        <p key={i}>Creating resume using reactjs with the help of gulp and node.</p>
-                    </div>
-                    <div className="col-md-12" key={i}>
-                        <span className=" tags label label-primary text-uppercase">react</span>
-                        <span className="tags label label-primary text-uppercase">gulp</span>
-                    </div>
-
-                </div>
-            }
             if(repo.id == '54154127'){
                 return <div>
 
@@ -70,11 +53,11 @@ var Github = React.createClass({
                         <a href={repo.html_url} target="_blank" key={i}>{repo.name}</a>
                     </div>
                     <div className="col-md-12 repodescription">
-                        <p key={i}>A react application using flux architecture to create stickypad notes.</p>
+                        <p key={i}>A react application using flux architecture to create,update and delete stickypad notes.Monogolab is used for storage option.</p>
                     </div>
-                    <div className="col-md-12" key={i}>
-                        <span className=" tags label label-primary text-uppercase">react & flux</span>
-                        <span className="tags label label-primary text-uppercase">gulp</span>
+                    <div className="col-md-12 pull-right" key={i}>
+                        <span className={tags}>react & flux</span>
+                        <span className={tags}>mongolab</span>
                     </div>
 
                 </div>
@@ -85,11 +68,11 @@ var Github = React.createClass({
                         <a href={repo.html_url} target="_blank" key={i}>{repo.name}</a>
                     </div>
                     <div className="col-md-12 repodescription">
-                        <p key={i}>A react application with webpack bundler to search for github users and their repositories.</p>
+                        <p key={i}>A react application with webpack bundler to search for github users and their repositories through github api.</p>
                     </div>
                     <div className="col-md-12" key={i}>
-                        <span className=" tags label label-primary text-uppercase">react</span>
-                        <span className="tags label label-primary text-uppercase">webpack</span>
+                        <span className={tags}>react</span>
+                        <span className={tags}>webpack</span>
                     </div>
                 </div>
 
@@ -106,7 +89,7 @@ var Github = React.createClass({
                         <p key={i}>A replica of google homepage using react and bootstrap.</p>
                     </div>
                     <div className="col-md-12" key={i}>
-                        <span className=" tags label label-primary text-uppercase">react</span>
+                        <span className={tags}>react</span>
                     </div>
 
                 </div>
@@ -118,11 +101,11 @@ var Github = React.createClass({
                         <a href={repo.html_url} target="_blank" key={i}>{repo.name}</a>
                     </div>
                     <div className="col-md-12 repodescription">
-                        <p key={i}>Creating resume using reactjs with the help of gulp and node.</p>
+                        <p key={i}>React app to search for any information using duck duck go api.</p>
                     </div>
                     <div className="col-md-12" key={i}>
-                        <span className=" tags label label-primary text-uppercase">react</span>
-                        <span className="tags label label-primary text-uppercase">gulp</span>
+                        <span className={tags}>react & flux</span>
+                        <span className={tags}>DuckDuckGo</span>
                     </div>
 
                 </div>
@@ -134,11 +117,11 @@ var Github = React.createClass({
                         <a href={repo.html_url} target="_blank" key={i}>{repo.name}</a>
                     </div>
                     <div className="col-md-12 repodescription">
-                        <p key={i}>Creating resume using reactjs with the help of gulp and node.</p>
+                        <p key={i}>Contact manager application to create, update and delete contacts.Contact details are stored and manipulated using firebase</p>
                     </div>
                     <div className="col-md-12" key={i}>
-                        <span className=" tags label label-primary text-uppercase">react</span>
-                        <span className="tags label label-primary text-uppercase">gulp</span>
+                        <span className={tags}>react & flux</span>
+                        <span className={tags}>Firebase</span>
                     </div>
 
                 </div>
@@ -150,11 +133,10 @@ var Github = React.createClass({
                         <a href={repo.html_url} target="_blank" key={i}>{repo.name}</a>
                     </div>
                     <div className="col-md-12 repodescription">
-                        <p key={i}>Creating resume using reactjs with the help of gulp and node.</p>
+                        <p key={i}>Using Omdb api search and retrieve movie details for the specified keywords.</p>
                     </div>
                     <div className="col-md-12" key={i}>
-                        <span className=" tags label label-primary text-uppercase">react</span>
-                        <span className="tags label label-primary text-uppercase">gulp</span>
+                        <span className={tags}>react & flux</span>
                     </div>
 
                 </div>
@@ -168,12 +150,26 @@ var Github = React.createClass({
                 <hr/>
                 <div className="row">
                     <div className="col-md-6">
+                        <div>
+                            <div className="col-md-12 reponame text-primary">
+                                <a href="https://github.com/ashwanthkumar/meghaduta" target="_blank">meghaduta</a>
+                            </div>
+                            <div className="col-md-12 repodescription">
+                                <p>Contributed to develop csv parser and a file watcher that periodically checks for changes.</p>
+                            </div>
+                            <div className="col-md-12">
+                                <span className={tags}>java</span>
+                                <span className={tags}>maven</span>
+                            </div>
+                        </div>
                         {firstHalfUserRepos}
                     </div>
                     <div className="col-md-6">
                         {secondHalfUserRepos}
                     </div>
                 </div>
+                <br/>
+                <a href="https://github.com/rvkumar92?tab=repositories" className="pull-right"><strong>View Repos</strong></a>
             </section>
         )
     }
