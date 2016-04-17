@@ -23,6 +23,11 @@ var Profile = React.createClass({
                     <i className="fa fa-github fa-2x"><a  href="https://github.com/rvkumar92"></a></i>
                     <i className="fa fa-linkedin-square fa-2x"><a href="https://in.linkedin.com/in/rvkumar92"></a></i>
                 </div>
+                <hr/>
+                <div>
+                    Built using React components and json structure schema. Source code can be found in <a
+                    href="https://github.com/rvkumar92/resume"> Github repo</a>.
+                </div>
             </div>
         )
     }

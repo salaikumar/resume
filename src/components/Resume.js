@@ -41,7 +41,7 @@ var Resume = React.createClass({
                                 <hr/>
                                 <ul>
                                     <li>{interest.web}</li>
-                                    <li className="fa fa-android">{interest.mobile}</li>
+                                    <li>{interest.mobile}</li>
                                 </ul>
                                 <br/>
                                 <Github />
