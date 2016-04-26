@@ -1,0 +1,55 @@
+body{
+    /*background: #777B79; *//* change it to #f0f0f0 */
+    /*background-color: #664946;*/
+    /*background: radial-gradient(#648880, #293f50);*/
+    background: radial-gradient(#000,#434343);
+    background: radial-gradient(#E6DADA, #274046);
+
+}
+.profile, .work{
+  background: #E6DADA;
+  background:radial-gradient(#e6dada, #fff);
+
+}
+.profileImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.role{
+    color: #777b79;
+}
+
+.fa{
+    margin-right: 5px;
+    top:4px;
+}
+
+li{
+    list-style: none;
+}
+
+.skills-list{
+    font-size: 18px;
+}
+.skills{
+    margin-bottom: 30px;
+}
+.github{
+    width: 100%;
+}
+.reponame{
+    font-weight: bold;
+}
+.tags{
+    margin-right: 1%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+p{
+  font-size: 15px;
+}
