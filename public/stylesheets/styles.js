@@ -7,13 +7,15 @@ const {width, height, scale} = Dimensions.get("window"),
 
 export default StyleSheet.create({
     "body": {
-        "background": "radial-gradient(#E6DADA, #274046)"
+        "background": "linear-gradient(#485563 , #29323c)"
     },
     "profile": {
-        "background": "radial-gradient(#e6dada, #fff)"
+        "background": "rgba(255,255,255,0.79)",
+        "boxShadow": "0 0 12px rgba(0,0,0,0.08)"
     },
     "work": {
-        "background": "radial-gradient(#e6dada, #fff)"
+        "background": "rgba(255,255,255,0.79)",
+        "boxShadow": "0 0 12px rgba(0,0,0,0.08)"
     },
     "profileImage": {
         "display": "block",

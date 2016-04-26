@@ -2,13 +2,17 @@ body{
     /*background: #777B79; *//* change it to #f0f0f0 */
     /*background-color: #664946;*/
     /*background: radial-gradient(#648880, #293f50);*/
-    background: radial-gradient(#000,#434343);
-    background: radial-gradient(#E6DADA, #274046);
-
+    /*background: radial-gradient(#000,#434343);
+    background: radial-gradient(#E6DADA, #274046);*/
+    /*background: #485563;
+    background: linear-gradient(#485563 , #29323c);*/
+    background: #485563;
+    background: linear-gradient(#485563 , #29323c);
 }
 .profile, .work{
-  background: #E6DADA;
-  background:radial-gradient(#e6dada, #fff);
+  background: #fff;
+  background:rgba(255,255,255,0.79);
+  box-shadow: 0 0 12px rgba(0,0,0,0.08);
 
 }
 .profileImage{
