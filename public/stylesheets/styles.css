@@ -53,3 +53,6 @@ a:hover{
 p{
   font-size: 15px;
 }
+.fa-github, .fa-linkedin-square{
+  color: black;
+}

@@ -20,8 +20,8 @@ var Profile = React.createClass({
                 </ul>
                 <hr/>
                 <div className="text-center">
-                    <i className="fa fa-github fa-2x"><a  href="https://github.com/rvkumar92"></a></i>
-                    <i className="fa fa-linkedin-square fa-2x"><a href="https://in.linkedin.com/in/rvkumar92"></a></i>
+                    <a href="https://github.com/rvkumar92/resume" target="_blank"><i className="fa fa-github fa-2x"></i></a>
+                    <a href="https://in.linkedin.com/in/rvkumar92" target="_blank"><i className="fa fa-linkedin-square fa-2x"></i></a>
                 </div>
                 <hr/>
                 <div>

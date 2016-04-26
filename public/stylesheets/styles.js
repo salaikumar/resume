@@ -53,5 +53,11 @@ export default StyleSheet.create({
     },
     "p": {
         "fontSize": 15
+    },
+    "fa-github": {
+        "color": "black"
+    },
+    "fa-linkedin-square": {
+        "color": "black"
     }
 });
