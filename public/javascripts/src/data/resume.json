@@ -1,17 +1,17 @@
 {
   "profile": {
     "name": "Vijay Kumar",
-    "role": "Developer",
+    "role": "Full Stack Developer",
     "picture": "profile.png",
     "email": "rvkumar2906@gmail.com",
-    "mobile": "+91 9944239288",
+    "mobile": "+91 99442 39288",
     "location": {
       "zipcode": "600100",
       "city": "Chennai",
       "address": "Pallikaranai",
       "region": "TamilNadu"
     },
-    "summary": "Wanna be a Programmer",
+    "summary": "Wanna be a Computer Saint roaming around Himalayas",
     "social": [
       {
         "network": "linkedin",
